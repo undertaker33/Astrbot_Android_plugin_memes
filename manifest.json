@@ -1,14 +1,14 @@
 {
   "pluginId": "io.github.astrbot.android.meme_manager",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "protocolVersion": 2,
-  "author": "OpenAI Codex",
-  "title": "Android Meme Manager",
-  "description": "Local meme manager and auto-send plugin for AstrBot Android plugin v2.",
+  "author": "untarz",
+  "title": "表情包发送器",
+  "description": "基于插件v2协议开发的表情包发送器，支持本地表情包资源的打包、分类索引构建、回复装饰以及/表情管理命令的暴露。",
   "permissions": [],
-  "minHostVersion": "0.3.0",
+  "minHostVersion": "0.5.5",
   "maxHostVersion": "",
-  "sourceType": "LOCAL_FILE",
-  "entrySummary": "Bundles local meme assets, builds category index, decorates replies with meme images, and exposes /表情管理 commands.",
+  "sourceType": "REPOSITORY",
+  "entrySummary": "让bot能发送表情包，支持流式兼容和发送行为自定义",
   "riskLevel": "LOW"
 }

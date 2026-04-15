@@ -1,0 +1,14 @@
+{
+  "pluginId": "io.github.ElymBot.android.meme_manager",
+  "version": "0.2.5",
+  "protocolVersion": 2,
+  "author": "untarz",
+  "title": "表情包发送器",
+  "description": "基于插件v2协议开发的表情包发送器，支持本地表情包资源的打包、分类索引构建、回复装饰以及/表情管理命令的暴露。",
+  "permissions": [],
+  "minHostVersion": "0.5.5",
+  "maxHostVersion": "",
+  "sourceType": "REPOSITORY",
+  "entrySummary": "让bot能发送表情包，支持流式兼容和发送行为自定义",
+  "riskLevel": "LOW"
+}

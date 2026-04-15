@@ -1,0 +1,88 @@
+{
+  "title": "表情包插件设置",
+  "sections": [
+    {
+      "sectionId": "general",
+      "title": "基础设置",
+      "fields": [
+        {
+          "fieldType": "toggle",
+          "fieldId": "enabled",
+          "label": "启用插件",
+          "defaultValue": true
+        },
+        {
+          "fieldType": "text_input",
+          "fieldId": "defaultCategory",
+          "label": "默认分类",
+          "placeholder": "happy",
+          "defaultValue": "happy"
+        },
+        {
+          "fieldType": "select",
+          "fieldId": "sendMode",
+          "label": "发送模式",
+          "defaultValue": "append",
+          "options": [
+            {
+              "value": "append",
+              "label": "附加到当前回复"
+            },
+            {
+              "value": "followup",
+              "label": "作为补发消息"
+            }
+          ]
+        },
+        {
+          "fieldType": "select",
+          "fieldId": "matchMode",
+          "label": "匹配模式",
+          "defaultValue": "tag_and_keyword",
+          "options": [
+            {
+              "value": "tag_only",
+              "label": "仅显式标签"
+            },
+            {
+              "value": "tag_and_keyword",
+              "label": "标签加关键词"
+            }
+          ]
+        },
+        {
+          "fieldType": "text_input",
+          "fieldId": "memeTriggerProbability",
+          "label": "触发概率(0-100)",
+          "placeholder": "100",
+          "defaultValue": "100"
+        },
+        {
+          "fieldType": "toggle",
+          "fieldId": "randomPick",
+          "label": "随机选图",
+          "defaultValue": true
+        },
+        {
+          "fieldType": "text_input",
+          "fieldId": "maxImagesPerReply",
+          "label": "每次最多图片数",
+          "placeholder": "1",
+          "defaultValue": "1"
+        },
+        {
+          "fieldType": "toggle",
+          "fieldId": "replySuffixEnabled",
+          "label": "追加标签后缀",
+          "defaultValue": false
+        },
+        {
+          "fieldType": "toggle",
+          "fieldId": "streamingCompatibility",
+          "label": "流式兼容模式",
+          "defaultValue": true
+        }
+      ]
+    }
+  ]
+}

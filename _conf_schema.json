@@ -1,0 +1,65 @@
+{
+  "enabled": {
+    "type": "bool",
+    "description": "启用插件",
+    "hint": "关闭后不再匹配或发送表情包。",
+    "default": true,
+    "section": "general"
+  },
+  "defaultCategory": {
+    "type": "string",
+    "description": "默认分类",
+    "hint": "显式标签无法匹配具体分类时使用的兜底分类。",
+    "default": "happy",
+    "section": "general"
+  },
+  "sendMode": {
+    "type": "string",
+    "description": "发送模式",
+    "hint": "append 表示附加到当前回复；followup 表示尝试作为补发消息。",
+    "default": "append",
+    "section": "general"
+  },
+  "matchMode": {
+    "type": "string",
+    "description": "匹配模式",
+    "hint": "tag_only 仅匹配显式标签；tag_and_keyword 同时匹配标签和关键词。",
+    "default": "tag_and_keyword",
+    "section": "general"
+  },
+  "memeTriggerProbability": {
+    "type": "number",
+    "description": "触发概率",
+    "hint": "表情包触发概率，范围 0 到 100。",
+    "default": 100,
+    "section": "general"
+  },
+  "randomPick": {
+    "type": "bool",
+    "description": "随机选图",
+    "hint": "开启后在命中的分类中随机挑选表情包。",
+    "default": true,
+    "section": "general"
+  },
+  "maxImagesPerReply": {
+    "type": "number",
+    "description": "每次最多图片数",
+    "hint": "每次回复最多追加的图片数量；当前实现至少按 1 张处理。",
+    "default": 1,
+    "section": "general"
+  },
+  "replySuffixEnabled": {
+    "type": "bool",
+    "description": "追加标签后缀",
+    "hint": "开启后在文本后追加 [表情:<标签>] 说明。",
+    "default": false,
+    "section": "general"
+  },
+  "streamingCompatibility": {
+    "type": "bool",
+    "description": "流式兼容模式",
+    "hint": "开启后采用更保守的附件发送策略。",
+    "default": true,
+    "section": "general"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "assetRoot": {
+    "description": "Bundled meme asset root.",
+    "type": "string",
+    "default": "memes"
+  },
+  "manifestSource": {
+    "description": "Generated manifest file used to build the in-memory index.",
+    "type": "string",
+    "default": "runtime/generated_meme_manifest.js"
+  },
+  "categorySnapshot": {
+    "description": "Bundled category overview copied from the desktop source pack at packaging time.",
+    "type": "list",
+    "default": []
+  }
+}
